@@ -11,15 +11,15 @@ class StringBuilder {
   }
 
   padStart(str) {
-    console.log(str);
+    return (this.#value = `${str}` + `${this.#value}`);
   }
 
   padEnd(str) {
-    console.log(str);
+    return (this.#value = `${this.#value}` + `${str}`);
   }
 
   padBoth(str) {
-    console.log(str);
+    return (this.#value = `${str}` + `${this.#value}` + `${str}`);
   }
 }
 
