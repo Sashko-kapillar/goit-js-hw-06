@@ -32,15 +32,3 @@ console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
 
 storage.removeItem("Scaner");
 console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
-
-// const getUsersWithFriend = (users, friendName) => {
-//   const friendUser = users.filter((user) => user.friends.includes(friendName));
-
-//   return friendUser;
-// };
-
-// console.log(getUsersWithFriend(allUsers, "Briana Decker"));
-
-// console.log(getUsersWithFriend(allUsers, "Goldie Gentry"));
-
-// console.log(getUsersWithFriend(allUsers, "Adrian Cross"));
